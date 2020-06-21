@@ -1,0 +1,43 @@
+/* size of margin, border and padding is included in size of element 
+   in internal CSS calculations */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: red;
+  font-family: 'Simonetta';
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header {
+  padding: 50px;
+  font-weight: 900;
+}
+
+img {
+  padding-bottom: 50px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.notes {
+  font-style: italic;
+  padding: 20px;
+}
+
+footer {
+  padding: 50px;
+}
